@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+A:link { 
+    text-decoration: none; 
+    color: white;
+   } 
+A:hover {
+    text-decoration: underline; 
+    color: white; 
+}
+ A:visited {
+    color: white;
+}
+
+.head{
+	position: sticky; /* фиксированное меню при прокрутке страницы */
+  	top: -85px;
+}
+
+.menu ul{
+	display: flex;
+	background: rgb(0, 0 , 0, 0.7);
+	height: 40px;
+	margin: 0;
+	align-items: center; /* выравнивание текста по вертикали (flex)*/
+}
+.menu li {
+	padding-right: 30px;
+	font-size: 18px; 	/* размер шрифта header меню */
+	list-style-type: none;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.number {
+	margin-left: auto; /* выравниваем номер телефона по правому краю */
+	padding-right: 25px;
+	font-size: 20px;
+	color: white;
+}
+.number:hover {
+	font-size: 30px;
+	transition: .5s;
+}
+
+.headerLogo {
+	background-color: white;
+	padding-left: 10px;
+}
+
+.mainHeading {
+	text-align: center;
+	font-size: 23px;
+	line-height: 2px;
+}
+
+.mainContent {
+	text-align: center;
+	display: grid;
+	grid-template-rows: 300px 300px;
+  	grid-template-columns: 350px 350px 350px;
+  	grid-column-gap: 5px; /*отступы между стобцами (grid)*/
+    grid-row-gap: 5px; /*отступы между строками (grid)*/
+  	justify-content: center;
+}
+
+.catalog {				
+	border: 1px solid black;
+	background: #CFCFCF;
+	color: black;
+	font-size:40px;
+	text-shadow: white 1px 1px 0, white -1px -1px 0, 
+    white -1px 1px 0, white 1px -1px 0;
+}
+
+.catalog:hover {
+	color: yellow;
+	transition: .5s;
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+    black -1px 1px 0, black 1px -1px 0;
+}
+
+.img1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CFCFCF url(image/catalog1.jpg);
+	background-size: 350px 300px;
+
+}
+.img2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CFCFCF url(image/catalog2.png);
+	background-size: 350px 300px;
+}
+.img3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CFCFCF url(image/catalog3.png);
+	background-size: 350px 300px;
+}
+.img4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CFCFCF url(image/catalog4.png);
+	background-size: 350px 300px;
+}
+.img5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CFCFCF url(image/catalog5.jpg);
+	background-size: 350px 300px;
+}
+.img6 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CFCFCF url(image/catalog6.jpg);
+	background-size: 350px 300px;
+}
+
+
+
+
+
